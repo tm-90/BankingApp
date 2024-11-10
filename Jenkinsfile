@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('SCM_Checkout') {
             steps {
-                echo 'Perform SCM Checkout'
+                echo 'banking application Perform SCM Checkout '
                 git 'https://github.com/SA-AWS-DevOps-July24/BankingApp.git'
             }
         }
