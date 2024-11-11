@@ -7,10 +7,10 @@
     command : sudo apt-get update
 
   - name : Install Docker
-    command : sudo apt-get install -y docker.io
+    command : sudo apt-get install  docker.io -y
 
   - name : Start Docker Service
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 tanmay216/tanmay-bank-project:3.0
+    command: docker run -itd -p 8084:8081 tanmay216/tanmay-bank-project:1.0
